@@ -1146,7 +1146,10 @@ form {
 }
 
 .form-footer input {
-  width: 12px;
+  display: inline-flex;
+  width:20px;
+  height: 20px;
+  margin-right: 7px;
 
 }
 
@@ -1185,13 +1188,24 @@ textarea {
   justify-content: space-between;
   align-items: left;
   margin-top: 10px;
+  letter-spacing: 1px;
   }
 
 .copy {
-  width: 152px;
+  width: 252px;
   font-size: 0.8rem;
   color: #15143966;
   text-align: left ;
+  height: 26px;
+}
+@media (max-width: 460px) {
+  .copy {
+    font-size: 0.7rem;
+  }
+  .button {
+    width: 99px;
+    height: 40px;
+  }
 }
 #message {
   height: 110px;
